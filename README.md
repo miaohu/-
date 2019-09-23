@@ -4,3 +4,4 @@
 ### 前端日常积累
 * [函数提升和变量提升以及两者的优先级](前端日常积累/函数提升和变量提升以及两者的优先级.md)
 * [Array.prototype.some()方法](前端日常积累/Array.prototype.some()方法.md)
+* [Array.prototype.every()方法](前端日常积累/Array.prototype.every()方法.md)
