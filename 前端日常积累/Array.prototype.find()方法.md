@@ -22,8 +22,11 @@ array.find(function (currentValue, index, arr), thisArg)
   - `可选` 执行 `callback` 时使用的 `this` 值.
   - 如果省略了 `thisArg`, `this` 的值为 `undefined`.
   
-##### 返回值
-- 返回符合测试条件的第一个元素值, 如果没有返回 `undefined`  
+##### 细节
+- 返回值:
+  - 返回符合测试条件的第一个元素值, 如果没有返回 `undefined` 
+- JavaScript 版本:
+  - ECMAScript 6
  
 ### 描述  
 `find()` 为数组中的每一个元素都执行一次 `callback` 函数, 直到一个 `callback` 返回 `true` , 然后立即返回这个值, 否则返回 `undefined`.

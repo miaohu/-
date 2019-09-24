@@ -23,12 +23,16 @@ array.every(function (currentValue, index, arr), thisArg)
   - `可选` 执行 `callback` 时使用的 `this` 值.
   - 如果省略了 `thisArg`, `this` 的值为 `undefined`.
 
-##### 返回值
-- 返回 `Boolean` 值.  
-- 数组中所有元素满足条件就返回 `true`, 否则返回 `false`.
+##### 细节
+- 返回值
+  - 返回 `Boolean` 值.  
+  - 数组中所有元素满足条件就返回 `true`, 否则返回 `false`.
+- JavaScript 版本:
+  - 1.6
 
 ### 描述  
 `every()` 为数组中的每一个元素都执行一次 `callback` 函数, 直到所有 `callback` 返回 `true` , 否则返回 `false`. `callback` 只会在一个有值的索引上被调用, 不会在那些被删除或从未被赋值的索引上引用.   
+
 ### 栗子
 检测数组里是否所有值都 > 10
 ```js
