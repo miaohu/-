@@ -7,3 +7,4 @@
 * [Array.prototype.every()方法](前端日常积累/Array.prototype.every()方法.md)
 * [Array.prototype.find()方法](前端日常积累/Array.prototype.find()方法.md)
 * [Array.prototype.includes()方法](前端日常积累/Array.prototype.includes()方法.md)
+* [Object.keys()方法](前端日常积累/Object.keys()方法.md)
